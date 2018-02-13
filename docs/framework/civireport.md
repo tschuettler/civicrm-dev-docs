@@ -60,9 +60,9 @@ fields is the list of fields that the user can select to display or not.
 | `dbAlias` | text | To give the field another name. See note below. 
 | `default` | true/false | Selected by default | 
 | `name` | text | To give the field another name. This defaults to the key for this field array. See note below. |
-| `no_display` | true/false | Doesn't appear in the output, but can be used in the query |
-| `no_repeat` | true/false | repeated fields/value in the column are not allowed |
-| `required` | true/false | The user has no choice |
+| `no_display` | not empty | Doesn't appear in the output, but can be used in the query |
+| `no_repeat` | not empty | repeated fields/value in the column are not allowed |
+| `required` | not empty | The user has no choice |
 | `statistics` | array | To make query compute stats like sum, count, avg on a numeric field. Applies to both "display columns" and "filters".|  
 
 
